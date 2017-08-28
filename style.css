@@ -1,0 +1,163 @@
+
+  body {
+    font-family: 'Roboto', sans-serif, arial; /* Sets text fonts within body with some additional fonts if any are not supported*/
+    margin: 0; /* Sets all sides of the body default margin*/
+  }
+
+  h1 {
+    color: white; /* Sets the color of the main header*/
+    font-size: 40px; /* Sets the font size of the main header*/
+    font-weight: normal; /* Sets the font weight from bold to normal*/
+    margin-bottom: 0; /* Sets the margin below the main header*/
+  }
+
+  h2 {
+    color: white; /* Sets the color of the sub-header*/
+    font-size: 18px; /* Sets the font size of the sub-header*/
+    margin-top: 0; /* Sets the margin above the sub-header*/
+  }
+
+  .about-container {
+    background: url('bg2.jpg') no-repeat center center fixed; /* Calls background image, prevents repeating, centers and fixes the image*/
+    -webkit-background-size: cover; /* Sets background image size to cover full page for web browsers that are not up to date*/
+    -moz-background-size: cover; /* Sets background image size to cover full page for web browsers that are not up to date*/
+    -o-background-size: cover; /* Sets background image size to cover full page for web browsers that are not up to date*/
+    background-size: cover; /* Sets background image size to cover full page*/
+    height: 550px; /* Sets the background image height*/
+    padding: 25px;
+  }
+
+  .about {
+    width: 400px; /* Sets the containing box to 400 pixels wide*/
+    border: 1px solid white; /* Sets the border of the box to a 1 pixel solid white line*/
+    padding: 25px; /* Sets all sides of the box to have 20 pixels of space between the walls and the content*/
+    background: rgba(71, 212, 0, 0.9); /* Sets the color and opacity of the boxe without changing the opacity of the content*/
+    margin: 25px auto; /* Sets the margin to the left of the box*/
+    border-radius: 10px; /* Sets the borer to have rounded edges*/
+    letter-spacing: 3px; /* Adds space between letters of text*/
+    text-align: center; /* Aligns all text within the body to the center*/
+  }
+
+  .me {
+    height: 200px; /* Sets the picture height*/
+    border-radius: 100%; /* Sets the border edges to be rounded into an elipse*/
+    border-style: solid; /* Sets the border of the picture to a solid line*/
+    border-color: white; /* Sets the border of the picture to white*/
+  }
+
+  .bio {
+    color: white; /* Sets the color of the text with class bio*/
+    font-weight: 900; /* Sets the weight/thickness of the font within class bio*/
+    font-size: 14px; /* Sets the size of the font within class bio*/
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: 50px;
+  }
+
+  hr{ /*Adds thematic break from codepen.io/ibrahimjabbari/pen/ozinB*/
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    width: 250px;
+  }
+
+  .box {
+    float: left; /* Sets the to left and right instead of stacked*/
+    width: 42.5%; /* Sets the width of the boxes to both fit on screen*/
+    /* |5%| |42.5%| |5%| |42.5%| |5%| */
+    margin-left: 5%; /* Sets a small margin to the left of both boxes*/
+    margin-top: 80px;
+  }
+
+  h4 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .clear { /*reset the floating flow and position each item at the very beginning of the screen underneath the HTML elements that precede it*/
+    clear: both;
+  }
+
+  .full-width {
+    width: 100%;
+  }
+
+  .skills-and-tools {
+    max-width: 400px;
+    margin: 40px auto;
+  }
+
+  .icons {
+    text-align: center;
+  }
+
+  .icon {
+    margin: 30px 0;
+  }
+
+  .contact-me {
+    height: 350px;
+    background-color: #202020;
+    padding-top: 30px;
+  }
+
+  .contact-headline {
+    color: white;
+  }
+
+  .contact-info {
+    color: white;
+    font-size: 13px;
+    margin-top: 30px;
+  }
+
+  .contact-link {
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  .nav-link {
+    color: white;
+    text-decoration: none;
+  }
+
+  .footerbar {
+    background: rgba(71, 212, 0, 0.9);
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    bottom: 0px;
+    text-align: center;
+  }
+
+  .nav-list{
+    padding-left: 0px;
+    float: center;
+    list-style: none;
+  }
+
+  .nav-buttons {
+    display: inline;
+    padding: 3%;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+@media only screen and (max-height: 600px)  {
+  .about-container {
+      background: url('bg2.jpg') no-repeat center center fixed; /* Calls background image, prevents repeating, centers and fixes the image*/
+      background-size: cover; /* Sets background image size to cover full page*/
+    }
+}
