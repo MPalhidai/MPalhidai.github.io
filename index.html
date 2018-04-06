@@ -1,312 +1,237 @@
-<!--<!DOCTYPE html>-->
-<html>
-  <!--adds the head, not user visible-->
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <!--call CSS file-->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!--loads google font-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <!--PrismJS project into web page-->
-    <link
-      rel="stylesheet"
-      href="prism-atom-dark.css"
-      type="text/css"
-      media="screen"
-    />
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>-->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <title>Hello, world!</title>
 
-    <script type="text/javascript" src="prism.js"></script>
-    <script type="text/javascript" src="prism.ruby.js"></script>
-
-    <title>Michael Palhidai</title>
-    <!--Adds search engine description-->
-    <meta name="description" content="Michael Palhidai is a professional
-        software engineer specializing in full-stack development.
-        He has extensive experience with Ruby, Rails, JavaScript,
-        and building web applications.">
-  <!--ends the head-->
   </head>
-  <!--adds the body, user visible-->
+
   <body>
-    <!--adds a devision to create a box-->
-    <div class="about-container">
-      <!--adds a devision for about info-->
-      <div class="about">
-        <!--calls an jpg within the same file-->
-	      <img src="me.jpg" class="me" />
-        <!--adds primary header-->
-	      <h1>Michael Palhidai</h1>
-        <!--adds secondary header-->
-	      <h2>ENGINEER</h2>
-        <!--adds thematic break-->
-	      <hr class="gray" />
-        <!--adds a paragraph-->
-	      <p class="bio">
-	    	  I am a chemist, web developer, and software engineer. My career goal is to apply artificial intelligence and machine learning to personalized medicine and drug discovery.
-	      </p>
-      <!--ends the about devision-->
+
+      <section class="jumbotron d-flex text-center align-items-center" id="cover">
+        <div class="container">
+
+          <h1 class="jumbotron-heading">Hi, I'm Alvaro. I design & build<p><span id="test"></span></p></h1>
+          <p>
+            <a href="#hire" class="btn btn-outline-warning">Yes, I'm available for hire</a>
+          </p>
+
+        </div>
+      </section>
+
+        <div class="container text-center" id="expertise">
+          <h1 class="jumbotron-heading">My Expertise</h1>
+          <p class="lead text-muted">I've got chops in all phases of the design process.</p>
+
+          <div class="row">
+
+            <div class="col-lg-4">
+                <i class="fa fa-chart-line fa-7x expertise-icon"></i>
+              <h2>Strategy</h2>
+              <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-4">
+              <i class="far fa-hand-point-up fa-7x expertise-icon"></i>
+              <h2>UX/UI</h2>
+              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-4">
+              <i class="far fa-file-code fa-7x expertise-icon"></i>
+              <h2>Code</h2>
+              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            </div><!-- /.col-lg-4 -->
+
+          </div><!-- /.row -->
+
+        </div><!-- /.container id="expertise"-->
+
+        <div class="container text-center" id="work">
+          <h1 class="jumbotron-heading">My Work</h1>
+          <p class="lead text-muted">Want to see more examples? Email me.</p>
+
+          <div class="row justify-content-center border-bottom text-left">
+            <div class="col-md-10">
+              <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                  <strong class="d-inline-block mb-2 text-primary">World</strong>
+                  <h3 class="mb-0">
+                    <a class="text-dark" href="#">Featured post</a>
+                  </h3>
+                  <div class="mb-1 text-muted">Nov 12</div>
+                    <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#">Continue reading</a>
+                </div>
+                <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/600x250?theme=thumb" alt="Card image cap">
+              </div>
+            </div>
+          </div><!-- /.row -->
+
+          <div class="row justify-content-center border-bottom">
+            <div class="blog-post">
+              <p>“Our client loved Matt's design work. This was a very smooth project. High fives all around!”</p>
+            </div>
+          </div>
+
+          <div class="row justify-content-center border-bottom text-right">
+            <div class="col-md-10">
+              <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/600x250?theme=thumb" alt="Card image cap">
+                <div class="card-body d-flex flex-column align-items-end">
+                  <strong class="d-inline-block mb-2 text-primary">World</strong>
+                  <h3 class="mb-0">
+                    <a class="text-dark" href="#">Featured post</a>
+                  </h3>
+                  <div class="mb-1 text-muted">Nov 12</div>
+                    <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#">Continue reading</a>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.row -->
+
+          <div class="row justify-content-center border-bottom">
+            <div class="blog-post">
+              <p>“Quality work from a quality designer. We couldn't have asked for a better experience.”</p>
+            </div>
+          </div>
+
+        </div><!-- /.container id="work"-->
+
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div><!--./row -->
+        </div><!--./container -->
+      </div><!--./album -->
+
+    <section id="hire">
+      <div class="container d-flex h-100">
+        <div class="row align-self-center">
+          <div class="col text-center">
+
+            <h2 class="intro slate">Want to work together?</h2>
+            <h4 class="statement slate">I'm currently accepting new projects and would love to hear about yours. Please take a few minutes to tell me about it.</h4>
+            <p>
+              <!-- Trigger the modal with a button -->
+              <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#myModal" data-whatever="@getbootstrap">Get Started</button>
+            </p>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contact me</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="row">
+                        <div class="col">
+                          <div class="form-group">
+                            <input value="Name" type="text" class="form-control" id="recipient-name">
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="form-group">
+                            <input value="Email address" type="text" class="form-control" id="recipient-email">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <div class="form-group">
+                            <input value="Phone number" type="text" class="form-control" id="recipient-number">
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="form-group">
+                            <input value="Website" type="text" class="form-control" id="recipient-website">
+                          </div>
+                        </div>
+                      </div>
+                    <div class="form-group">
+                      <label for="message-text" class="col-form-label">Message:</label>
+                      <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send message</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal -->
+
+
+
+
+
+
+
+
+          </div>
+        </div>
       </div>
-    <!--ends the box devision-->
-    </div>
+    </section>
+
+    <footer class="text-muted d-flex align-items-center">
+      <div class="container text-center">
+        <p><i class="fa fa-car fa-3x"></i></p>
+        <p>Handmade by me © 2018.</p>
+        <a href="#"><i class="fab fa-dribbble"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-google-plus"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js"></script>
+      <script src="assets/type.js"></script>
 
 
 
-    <!--adds secondary header-->
-    <h3 id="code-samples">Code Snippets (In Dev)</h3>
-    <!--adds thematic break from codepen.io-->
-    <hr class="style14" />
-
-    <div class="box"> <!--adds a devision to create a box on the left-->
-      <h4>Temperature Conversion</h4>
-      <p>
-        This ruby program will prompt the user for a temperature
-        in degrees Celsius and let the user know what the
-        corresponding temperature is in Fahrenheit.
-      </p>
-    </div>
-
-    <div class="box"> <!--adds a devision to create a box on the right-->
-      <pre><code class="language-ruby">
-      def c_to_f(temp)
-
-      return temp * 9/5 + 32
-
-      end
-
-      print &quot;Enter degrees in Celcius: &quot;
-      temp = gets.to_f
-      puts &quot;The temperature is #{c_to_f(temp)} degrees Fahrenheit.&quot;
-      </code></pre>
-    </div>
-
-    <br class="clear" /> <!--reset the current floating situation to position each element underneath the previous element, starting at the left-most position-->
-
-    <div class="box"> <!--adds a devision to create a box on the left-->
-      <pre><code class="language-ruby">
-      print &quot;Enter a number: &quot;
-      int = gets.to_i
-
-      mod10 = int % 10
-      mod100 = int % 100
-
-      if mod100 &gt;= 11 &amp;&amp; mod100 &lt;= 13
-          puts &quot;#{int}th&quot;
-      elsif mod10 == 1
-          puts &quot;#{int}st&quot;
-      elsif mod10 == 2
-          puts &quot;#{int}nd&quot;
-      elsif mod10 == 3
-          puts &quot;#{int}rd&quot;
-      else
-          puts &quot;#{int}th&quot;
-      end
-      </code></pre>
-    </div>
-
-    <div class="box"> <!--adds a devision to create a box on the right-->
-      <h4>Ordinal Challenge</h4>
-      <p>
-        This ruby program will convert a plain number
-        to the ordinal of the number. So for example,
-        if the user enters 2, it will display 2nd, if
-        the user enters 3, it will display 3rd, etc.
-      </p>
-    </div>
-
-    <br class="clear" /> <!--reset the current floating situation to position each element underneath the previous element, starting at the left-most position-->
-
-    <div class="box"> <!--adds a devision to create a box on the left-->
-      <h4>Foobar</h4>
-      <p>
-        This ruby program is an adaptation of a classic technical
-        interview problem which displays sequences
-        of the Foobar pattern.
-      </p>
-    </div>
-
-    <div class="box"> <!--adds a devision to create a box on the right-->
-      <pre><code class="language-ruby">
-      print &quot;How many digits of the Foobar pattern do you want to see: &quot;
-      foobar_iteration = gets.to_i
-
-      foobar = []
-
-      (1..foobar_iteration).each do |index|
-        foobar &lt;&lt; index
-      end
-
-      foobar.each do |index|
-        foo = index % 3
-        bar = index % 5
-        if foo == 0 &amp;&amp; bar == 0
-          puts &quot;Foobar&quot;
-        elsif foo == 0
-          puts &quot;Foo&quot;
-        elsif bar == 0
-          puts &quot;Bar&quot;
-        else
-          puts index
-        end
-      end
-      </code></pre>
-    </div>
-
-    <br class="clear" /> <!--reset the current floating situation to position each element underneath the previous element, starting at the left-most position-->
-
-    <!--adds secondary header-->
-    <h3 id="web-apps">Web Apps &amp; Pages (In Dev)</h3>
-    <!--adds thematic break from codepen.io-->
-    <hr class="style14" />
-
-    <div class="box">
-      <h4>Quote Generator</h4>
-      <img src="splurty.png" class="full-width"/>
-      <p>
-          A database-powered quote generator with a mobile-first
-          design, using the Ruby on Rails framework, HTML, and CSS.
-          Uses Git and GitHub for version control, and launched
-          on Heroku.
-      </p>
-    </div>
-
-    <div class="box">
-      <h4>Yelp Clone</h4>
-      <img src="nomster.png" class="full-width" />
-      <p>
-        A Yelp clone that integrates with the Google Maps API
-        and includes features like user comments, star ratings,
-        image uploading, and user authentication.
-      </p>
-    </div>
-    <br class="clear" />
-
-    <div class="box">
-      <h4>Two-Sided Market Place</h4>
-      <img src="flixter.png" class="full-width" />
-      <p>
-        A two-sided, video-streaming marketplace platform that
-        features credit card payment capabilities, user role
-        management, complex user interfaces, and advanced
-        database relationships.
-      </p>
-    </div>
-
-    <div class="box">
-      <h4>Test Driven Development</h4>
-      <img src="grammable.png" class="full-width" />
-      <p>
-        An Instagram clone that was built using industry-standard, test-driven
-        development following numerous red/green/refactor cycles.
-      </p>
-    </div>
-    <br class="clear" />
-
-    <div class="box">
-      <h4>Single Page Todo Application</h4>
-      <img src="todoster.png" class="full-width" />
-      <p>
-        This single-page to-do application features a
-        fluid user interface that– by using JavaScript–
-        allows users to rapidly add dynamic content.
-      </p>
-    </div>
-
-    <div class="box">
-      <h4>Sudoku Solver</h4>
-      <a href="https://github.com/MPalhidai/Sudoku-Solver">
-        <img src="solution_py_pygame.png" class="full-width" />
-      </a>
-      <p>
-        This link to my GitHub repo contains a python 3 regular and diagonal Sudoku solver. I added the techniques of elimination, only choice, and naked twins to apply constraint propagation and a depth first search to solve any Sudoku puzzle.
-      </p>
-    </div>
-    <br class="clear" />
-
-    <div class="box" >
-      <h4>Drinks List</h4>
-      <a href="https://intense-journey-41784.herokuapp.com/">
-        <img src="List.PNG" class="full-width">
-      </a>
-      <p>
-        This single page allows any user to add dynamic content. This was my first experience using the Rails framework.
-      </p>
-    </div>
-
-    <div class="box">
-      <h4>Google Homepage Clone</h4>
-      <a href="https://mpalhidai.github.io/google-homepage/">
-        <img src="google.PNG" class="full-width">
-      </a>
-      <p>
-        My first dive into HTML and CSS. My clone of Google's homepage was the launch of my web developer experience. I also learned to deploy content on GitHub.
-      </p>
-    </div>
-    <br class="clear" />
-
-    <!--adds secondary header-->
-    <h3 id="skills-and-tools">Skills &amp; Tools (In Dev)</h3>
-    <!--adds thematic break from codepen.io-->
-    <hr class="style14" />
-
-    <p class="skills-and-tools">
-      Michael has developed proficiency and expertise
-      in the following programming languages and
-      comfort with the following tools.
-    </p>
-
-    <div class="icons">
-      <img src="github.png" class="icon" />
-      <img src="rubocop.png" class="icon" />
-      <img src="trello.png" class="icon" />
-      <img src="slack.png" class="icon" />
-      <img src="codeship.png" class="icon" />
-
-      <br class="clear" />
-      <img src="skills.png" class="icon"/>
-    </div>
-
-    <div class="contact-me" id="hire-me">
-      <h3 class="contact-headline">Contact</h3>
-      <!--adds thematic break from codepen.io-->
-      <hr class="style14" />
-
-      <p class="contact-info">
-        Currently entertaining new opportunities.
-        Please get in touch via email:
-      </p>
-
-      <p>
-        <a href="mailto:MPalhidai@gmail.com" class="contact-link">
-          MPalhidai@gmail.com
-        </a>
-      </p>
-
-    </div>
-
-  <!--ends the body-->
   </body>
-
-  <footer class="footerbar">
-    <div class="row">
-      <ul class=nav-list>
-        <li class="nav-buttons">
-          <a href="#" class="nav-link">About</a>
-        </li>
-        <li class="nav-buttons">
-          <a href="#code-samples" class="nav-link">Code Samples</a>
-        </li>
-        <li class="nav-buttons">
-          <a href="#web-apps" class="nav-link">Web Apps</a>
-        </li>
-        <li class="nav-buttons">
-          <a href="#skills-and-tools" class="nav-link">Skills &amp; Tools</a>
-        </li>
-        <li class="nav-buttons">
-          <a href="#hire-me" class="nav-link">HIRE ME</a>
-        </li>
-      </ul>
-    </div>
-  </footer>
-<!--ends the html file-->
 </html>

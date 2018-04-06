@@ -1,0 +1,38 @@
+#cover {
+  background: url(../images/coding.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-color: #252a30;
+  background-blend-mode: exclusion;
+
+}
+
+#cover div {
+  color: white;
+}
+
+.btn-outline-warning{
+  color: white;
+}
+
+.btn-outline-dark{
+  color: #252a30;
+}
+
+#hire {
+  background-color: #FED766;
+  height: 50vh;
+  min-height: 400px;
+}
+
+.expertise-icon {
+  width: 140px;
+  height: 140px;
+  color: #da6400;
+}
+
+footer {
+  background-color: #252a30;
+  height: 30vh;
+  min-height: 200px;
+}
