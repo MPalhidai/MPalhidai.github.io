@@ -1,38 +1,253 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 2rem;
+  font-weight: 700;
+}
+
+.button_one, .button_two, .button_three {
+  padding: 1rem 1.8rem;
+  border-radius: 50px;
+  background-color: transparent;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.button_one {
+  color: #fff;
+  border: 2px solid #FED766;
+}
+
+.button_two {
+  color: #333;
+  border: 2px solid #333;
+}
+
+.button_three {
+  color: #333;
+  border: 2px solid #FED766;
+}
+
+.button_one:hover {
+  color: #333;
+  background-color: #FED766;
+  border: 2px solid #FED766;
+  text-decoration: none;
+  padding: 1rem 2.1rem;
+}
+
+.button_two:hover, .button_three:hover, .button_two:focus, .button_three:focus{
+  color: #FED766;
+  background-color: #252a30;
+  border: 2px solid #252a30;
+  text-decoration: none;
+  padding: 1rem 2.1rem;
+}
+
+.project-tags::before {
+  content: "\2022";
+  margin-right: 4px;
+  color: #FED766;
+  font-size: 1.3rem;
+}
+
+.project-tags {
+  display: inline;
+  list-style-type: none;
+  padding-left: 0;
+  color: #b2c6cd;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.project-tags li{
+  display: inline;
+}
+
+
+.container {
+  max-width: 1140px;
+}
+/* Cover */
 #cover {
-  background: url(../images/coding.jpg);
+  background: url(../images/coding.png);
   height: 100vh;
+  margin-bottom: 0;
   background-size: cover;
   background-color: #252a30;
   background-blend-mode: exclusion;
-
 }
 
-#cover div {
-  color: white;
+/*My Expertise*/
+
+.expertise-icon {
+  font-size: 5.0rem;
+  color: #FED766;
 }
 
-.btn-outline-warning{
-  color: white;
+.expertise-block h4{
+  margin: 1.8rem 0;
 }
 
-.btn-outline-dark{
-  color: #252a30;
+
+#test {
+  padding: 1rem;
+}
+
+#work {
+  background-color: #eee;
+  width: 100%;
+}
+
+#work_img {
+  border-radius: 10px;
+}
+
+.card {
+  border: 0;
+}
+
+.card-img-top {
+  border-radius: 6px;
+}
+
+#headshot {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
 }
 
 #hire {
   background-color: #FED766;
-  height: 50vh;
   min-height: 400px;
 }
 
-.expertise-icon {
-  width: 140px;
-  height: 140px;
-  color: #FED766;
+.statement {
+  font-weight: 500;
 }
 
 footer {
   background-color: #252a30;
-  height: 30vh;
+  /* height: 30vh; */
   min-height: 200px;
+}
+
+#footer-links a {
+  display: inline-block;
+  line-height: 2rem;
+  font-size: 1rem;
+  color: inherit;
+  margin: 0 4px;
+  width: 2rem;
+  height: 2rem;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 100%;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-dialog {
+  max-width: none;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content {
+  background-color: #252a30;
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+.modal-content textarea {
+  min-height: 176px;
+}
+
+.cd-modal-close {
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  right: 5%;
+  border-radius: 50%;
+  position: fixed;
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  background: rgba(0,0,0,0.3) url(../images/cd-icon-close.svg) no-repeat center center;
+}
+
+#intro {
+  font-size: 2.2rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.form-control {
+  color: #93a4aa;
+  background-color: #252a30;
+  border: 2px solid #fff;
+}
+
+.form-control:focus {
+  color: #93a4aa;
+  background-color: #252a30;
+  border: 2px solid #fff;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+#required {
+  display: block;
+}
+
+@media only screen and (max-width: 550px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  #work_info {
+    width: 100%;
+    margin: 1.5rem 0;
+  }
+
+  #work_info h3 ~ div{
+    height: 20px;
+  }
+
+  h3 {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .project-tags {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+
+  }
+
+  div {
+    text-align: center;
+    justify-content: center;
+  }
+
+  a {
+    width: 100%;
+    margin: 1rem 0;
+  }
 }
