@@ -76,14 +76,19 @@ h1, h2, h3, h4, h5, h6 {
 .container {
   max-width: 1140px;
 }
+
 /* Cover */
+
 #cover {
   background: url(../images/coding.png);
   height: 100vh;
   margin-bottom: 0;
   background-size: cover;
-  background-color: #252a30;
-  background-blend-mode: exclusion;
+}
+
+#scroll, #scroll:hover {
+  color: white;
+  text-decoration: none;
 }
 
 /*My Expertise*/
