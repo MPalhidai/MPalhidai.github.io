@@ -75,7 +75,6 @@ h1, h2, h3, h4, h5, h6 {
   display: inline;
 }
 
-
 .container {
   max-width: 1140px;
 }
@@ -108,7 +107,6 @@ h1, h2, h3, h4, h5, h6 {
 .expertise-block h4{
   margin: 1.8rem 0;
 }
-
 
 #test {
   padding: 1rem;
@@ -148,7 +146,6 @@ h1, h2, h3, h4, h5, h6 {
 
 footer {
   background-color: #252a30;
-  /* height: 30vh; */
   min-height: 200px;
 }
 
