@@ -7,6 +7,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+.row {
+  margin: 0;
+}
+
 .button_one, .button_two, .button_three {
   padding: 1rem 1.8rem;
   border-radius: 50px;
@@ -89,6 +93,10 @@ h1, h2, h3, h4, h5, h6 {
 #scroll, #scroll:hover {
   color: white;
   text-decoration: none;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 /*My Expertise*/
