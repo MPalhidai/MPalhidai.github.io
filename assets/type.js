@@ -1,5 +1,5 @@
 var element = document.querySelector('#test');
-var words = ['web applications.','user interfaces.','landing pages.','coorporate websites.'];
+var words = ['web applications.','user interfaces.','landing pages.','business websites.'];
 
 function type(words, index){
     index = index ? index : 0;
