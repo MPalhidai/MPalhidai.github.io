@@ -93,8 +93,12 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
-.z-10 {
-  z-index: 10;
+.h-20 {
+  height: 20%;
+}
+
+.h-60 {
+  height: 60%;
 }
 
 /*My Expertise*/
