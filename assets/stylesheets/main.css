@@ -224,6 +224,10 @@ footer {
   border: 2px solid #fff;
 }
 
+.grecaptcha-badge {
+  display: none;
+}
+
 .modal-footer {
   border-top: none;
 }
