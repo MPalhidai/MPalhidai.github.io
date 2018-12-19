@@ -1,6 +1,4 @@
-# Portfolio
-
-* [Portfolio Website] (https://www.michaelpalhidai.com/)
+# [Portfolio Website](https://www.michaelpalhidai.com/)
 
 Please click the link above to checkout all of my most notable projects 
 
