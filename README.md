@@ -1,10 +1,18 @@
-# [Portfolio Website](https://www.michaelpalhidai.com/)
+# michaelpalhidai.com
 
-Please click the link above to checkout all of my most notable projects
+Personal landing page for Michael Palhidai — founder of the Verdant Protocol and SOLACE transitional housing, and builder of UnicornEdge automated options trading strategies.
 
-## Future Features:
+Plain static HTML/CSS/JS served by GitHub Pages (`.nojekyll`, no build step). Custom domain set by `CNAME`.
 
-- new cover photo and a darker overlay
-- add section to include my open source contributions use expertise section to do so
-- change Strategy and UI/UX blocks with categories I work on more often like SOA
-- change typing script to highlight delete instead of single backspace
+## Structure
+- `index.html` — landing page (hero, ventures, about, contact)
+- `donate.html` — donation options (SOLACE and personal)
+- `assets/css/main.css`, `assets/js/main.js`, `assets/img/`
+
+## Enabling donations
+Open `assets/js/main.js` and paste hosted payment URLs (Stripe Payment Link, PayPal, GoFundMe…) into `DONATION_LINKS` at the top. Empty values render as disabled "coming soon" buttons. No card data is collected on this site.
+
+## Local preview
+```
+python3 -m http.server 8000
+```
