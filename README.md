@@ -1,6 +1,6 @@
 # michaelpalhidai.com
 
-Personal landing page for Michael Palhidai — founder of the Verdant Protocol and SOLACE transitional housing, and builder of UnicornEdge automated options trading strategies.
+Personal landing page for Michael Palhidai — founder of the Verdant Protocol and SOLACE transitional housing, and creator of free automated options trading strategies and indicators.
 
 Plain static HTML/CSS/JS served by GitHub Pages (`.nojekyll`, no build step). Custom domain set by `CNAME`.
 
