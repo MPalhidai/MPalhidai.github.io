@@ -1,6 +1,6 @@
 # michaelpalhidai.com
 
-Personal landing page for Michael Palhidai — founder of the Verdant Protocol and SOLACE transitional housing, and creator of free automated options trading strategies and indicators.
+Personal landing page for Michael Palhidai — founder of the Verdant Protocol and SOLACE transitional housing, creator of free automated options trading strategies and indicators, and maker of [Star Jar](https://starjar.me), a reward-jar app for kids.
 
 Plain static HTML/CSS/JS served by GitHub Pages (`.nojekyll`, no build step). Custom domain set by `CNAME`.
 
